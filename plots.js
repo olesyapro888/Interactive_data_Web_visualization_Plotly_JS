@@ -35,6 +35,9 @@ function buildMetadata(sample) {
     var PANEL = d3.select("#sample-metadata");
     // ensures that the contents of the panel are cleared when another ID number is chosen from the dropdown menu
     PANEL.html("");
+    // Object.entries(result).forEach(([key, value]) => {
+    // PANEL.append("h6").text(`${key.toUpperCase()}: ${value}`);
+
     PANEL.append("h6").text("ID " + result.id);
     PANEL.append("h6").text("Ethnicity: " + result.ethnicity);
     PANEL.append("h6").text("Gender: " + result.gender);
