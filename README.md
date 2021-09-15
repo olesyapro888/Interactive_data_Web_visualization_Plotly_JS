@@ -3,7 +3,7 @@
 	
 - [Overview of the Project](#overview-of-the-Plotly_chart-Analysis)
 - [Resources](#resources)	
-- [Plotly_chart Analysis Summary](#Mission-to-Plotly_charts-Summary)	
+- [Plotly_chart Analysis Summary](#Plotly_chart-Analysis-Summary`)	
 ## `Overview of the Plotly_chart Analysis`	
 	
 The purpose for the analysis is to visualize the bacterial data for each individual’s ID that is selected from the dropdown menu on the webpage https://itekkie.github.io/plotly_chart/.
