@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --orange: rgb(255,69,0);
+  --light: #ffffff;
+  --main: rgb(250, 248, 246);
+}
+
+.jumbotron {
+  font-family: 'Architects Daughter', sans-serif;
+  color: var(--light);
+  background-image: url("/static/images/bellybuttons.png");
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+/* .container {
+  margin: auto 10em;
+} */
+
+.background-clr{
+  background-color: var(--main);
+}
+
+p.bubblep {
+  margin-top: 30px ;
+  text-align: center;
+  /* color: var(--light); */
+  font-size: 18px;
+}
+
+footer {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 18px;
+  background: var(--orange);
+  color: var(--light);
+  text-align: center;
+}

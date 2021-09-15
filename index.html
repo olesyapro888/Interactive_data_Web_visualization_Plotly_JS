@@ -6,34 +6,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+  integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="static/css/style.css">
+
 </head>
-
-<body>
-
+<body class=background-clr>
   <div class="container">
+    <!-- <div class="wrapper">
+      <nav class="navbar">
+        <a class="navbar-brand" href="'">Data</a>
+      </nav> 
+    </div>  -->
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
+        <!-- <img src="./static/images/bellybuttons.png" alt="" /> -->
         <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+        <p>The company "Improbable Beef" is looking for people who carry a large number of a certain bacterial species. 
+        <br> The interactive charts below to explore the dataset</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-2">
         <div class="well">
           <h5>Test Subject ID No.:</h5>
-          <!-- <select id="selDataset"></select> -->
           <!-- two HTML elements: the dropdown menu ... -->
-          <!-- onchange="optionChanged(this.value)" is associated with the optionChanged()function -->
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
-        <!-- "this" refers to the dropdown menu. this.value therefore returns to the value attribute of the current dropdown menu selection -->
         </div>
         <div class="panel panel-primary">
           <div class="panel-heading">
             <h3 class="panel-title">Demographic Info</h3>
           </div>
- <!-- ...and the panel for the demographic information -->
+          <!--the panel for the demographic information -->
           <div id="sample-metadata" class="panel-body"></div>
         </div>
       </div>
@@ -45,16 +53,21 @@
       </div>
     </div>
     <div class="row">
+      <p class="bubblep"> Quickly use the dashboard to figure out whether volunteers are eligible to sell their bacteria to the company. 
+      <br> The chart bellow is the information on the number of the most common bacterial species found for each species. </p>
       <div class="col-md-12">
         <div id="bubble"></div>
       </div>
     </div>
+    <!-- footer -->
+    <footer id="main-footer">
+      <p>&copy; 2021 Project 12 of UofT SCS Boot Camps</p>
+    </footer> 
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="charts.js"></script>
+  <script src="static/js/charts.js"></script>
 
 </body>
-
 </html>
