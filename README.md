@@ -22,7 +22,7 @@ Next charts are created:
   - The a Bubble Chart that displays the Bacteria Cultures per Sample when an individual’s ID is selected from the dropdown menu webpage;
   - The Gauge Chart that displays the weekly washing frequency's value  when an individual ID is selected from the dropdown menu.
 
-screen
+![image](https://user-images.githubusercontent.com/68247343/133494917-4c01000d-4bd5-4b35-b5dc-8d4a49f011f7.png)
 
 Additionally, the customized webpage for the dashboard are the followings:
   1. An image to the jumbotron is added;
