@@ -135,6 +135,7 @@ function buildCharts(sample) {
       type: "indicator",
       mode: "gauge+number",
       gauge: {
+        domain: {x: [0, 1], y: [0, 1]},
         axis: {range: [null, 10]},
         bar: {color: "black"},
         bordercolor: "gray",
