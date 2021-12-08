@@ -1,20 +1,23 @@
-# Plotly_chart. Project 12 of the UofT.
+# Plotly_chart. The project 12 of the university of Toronto.
 ## `-Contents-`	
 	
 - [Overview of the Project](#overview-of-the-Plotly_chart-Analysis)
 - [Resources](#resources)	
 - [Plotly_chart Analysis Summary](#Plotly_chart-Analysis-Summary)	
+
 ## `Overview of the Plotly_chart Analysis`	
 	
-The purpose for the analysis is to visualize the bacterial data for each individual’s ID that is selected from the dropdown menu on the webpage https://itekkie.github.io/plotly_chart/.
+The purpose of the analysis is to visualize the bacterial data for each individual’s ID that is selected from the dropdown menu on the webpage https://itekkie.github.io/plotly_chart/.
 
 This assignment consists of four following technical analyses:
   1. Create a Horizontal Bar Chart to display the top 10 bacterial species (OTUs);
   2. Create a Bubble Chart that displays the Bacteria Cultures per Sample when an individual’s ID is selected from the dropdown menu webpage;
   3. Create a Gauge Chart that displays the weekly washing frequency's value, and display the value as a measure from 0-10 on the progress bar in the gauge chart when an individual ID is selected from the dropdown menu;
   4. Use your knowledge of HTML and Bootstrap to customize the webpage for your dashboard.
+  
 ## `Resources`	
 The analysis was created by using next software: HTML 5, CSS 4, Bootstrap 3.3.7, JavaScript, JS Libraries: Plotly, D3.
+
 ## `Plotly_chart Analysis Summary`	
 
 Next charts are created: 
