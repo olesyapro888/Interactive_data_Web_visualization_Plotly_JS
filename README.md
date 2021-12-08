@@ -1,4 +1,4 @@
-# Plotly_chart. The project 12 of the university of Toronto.
+# Plotly_chart. The project 12 of the University of Toronto.
 ## `-Contents-`	
 	
 - [Overview of the Project](#overview-of-the-Plotly_chart-Analysis)
