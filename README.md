@@ -1,4 +1,5 @@
-# Plotly_chart. The project 12 of the University of Toronto.
+# The Webpage customized for the dashboard using HTML, CSS, Bootstrap, JavaScript, Plotly, and D3.js.
+
 ## `-Contents-`	
 	
 - [Overview of the Project](#overview-of-the-Plotly_chart-Analysis)
